@@ -1,0 +1,8 @@
+<library path="simple_pure_pursuit_controller">
+  <class
+    name="simple_controller/SimplePurePursuitController"
+    type="simple_controller::SimplePurePursuitController"
+    base_class_type="nav2_core::Controller">
+    <description>Simple controller</description>
+  </class>
+</library>

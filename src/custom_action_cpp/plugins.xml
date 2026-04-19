@@ -1,0 +1,13 @@
+<library path="go_to_charger_action_server">
+  <class
+    name="custom_action_cpp::GoToChargerActionServer"
+    type="custom_action_cpp::GoToChargerActionServer"
+    base_class_type="rclcpp_components::NodeFactory"/>
+</library>
+
+<library path="go_to_charger_action_client">
+  <class
+    name="custom_action_cpp::GoToChargerActionClient"
+    type="custom_action_cpp::GoToChargerActionClient"
+    base_class_type="rclcpp_components::NodeFactory"/>
+</library>

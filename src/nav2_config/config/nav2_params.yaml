@@ -1,0 +1,12 @@
+controller_server:
+  ros__parameters:
+    controller_plugins: ["SimpleNav2Controller"]
+
+    SimpleNav2Controller:
+      plugin: "simple_nav2_controller/SimplePurePursuitController"
+      k_angular: 1.5
+      linear_vel: 0.2
+collision_monitor:
+  ros__parameters:
+    enabled: false
+    use_sim_time: false

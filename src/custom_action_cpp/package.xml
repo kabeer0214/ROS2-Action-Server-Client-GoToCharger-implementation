@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>custom_action_cpp</name>
+  <version>0.0.0</version>
+  <description>GoToCharger Action Server and Client (ROS 2 C++)</description>
+  <maintainer email="doc@todo.todo">doc</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- 🔧 Build system -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- 🔧 Core dependencies -->
+  <depend>custom_action_interfaces</depend>
+  <depend>rclcpp</depend>
+  <depend>rclcpp_action</depend>
+  <depend>rclcpp_components</depend>
+
+  <!-- 🔧 Needed for components -->
+  <exec_depend>pluginlib</exec_depend>
+
+  <!-- 🔧 Testing -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <!-- 🔥 IMPORTANT: Component export -->
+  <export>
+    <build_type>ament_cmake</build_type>
+    <rclcpp_components/>
+  </export>
+</package>
